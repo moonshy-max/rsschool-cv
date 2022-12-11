@@ -3,9 +3,9 @@
 ##Beginner Frontend Developer
 
 ##Contact information:
-*Phone: +7 989 77 88 555
-*E-mail: nemaxneshevne13@gmail.com
-*Telegram: @msh5
+**Phone:** +7 989 77 88 555
+**E-mail:** nemaxneshevne13@gmail.com
+**Telegram:** @msh5
 
 ##About mуself
 I am a simple guy from a city in the south of Russia, Rostov on Don. I study and work just like normal people. I came to study at the rolling scopes because I want to become a frontend developer.
