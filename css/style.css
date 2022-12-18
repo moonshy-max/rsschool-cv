@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html {
+   scroll-behavior: smooth; 
+}
+
 body{
     font-family: 'Source Sans Pro', sans-serif;
     display: flex;
@@ -64,10 +68,24 @@ ul{
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
  }
 
  .section-item{
-    margin: 20px 125px 10px
+    margin: 20px 75px 10px;
+    width: 35%;
+ }
+
+ .section-card-title{
+   margin-bottom: 10px;
+   color: rgb(190, 141, 82);
+ }
+
+ .card-list-item{
+   line-height: 26px;
+ }
+
+ .section-info hr{
+   align-self: flex-end;
  }
