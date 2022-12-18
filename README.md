@@ -1,1 +1,1 @@
-# rsschool-cv
+https://moonshy-max.github.io/rsschool-cv
