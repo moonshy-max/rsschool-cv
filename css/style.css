@@ -14,18 +14,20 @@ body{
     background-color: rgb(252, 220, 180);
 }
 
+ul{
+    list-style: none;
+}
+
 .nav-list{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    list-style: none;
 }
 
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
-    
-  }
+}
 
  .nav-link a{
     text-decoration: none;
@@ -39,7 +41,7 @@ body{
  }
 
  .main{
-    padding: 25px 100px;
+    padding: 25px 200px;
  }
 
  .main-card{
@@ -56,4 +58,16 @@ body{
  .card-name{
     margin-top: 10px;
     text-align: center;
+ }
+
+ .section-info{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+ }
+
+ .section-item{
+    margin: 20px 125px 10px
  }

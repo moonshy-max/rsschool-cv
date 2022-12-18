@@ -17,10 +17,10 @@
     <header class="header">
         <nav class="nav">
             <ul class="nav-list">
-                <li class="nav-link"><a href="#home">Home</a></li>
                 <li class="nav-link"><a href="#contact">Contact</a></li>
                 <li class="nav-link"><a href="#about">About me</a></li>
                 <li class="nav-link"><a href="#skills">Skills</a></li>
+                <li class="nav-link"><a href="#code">Code</a></li>
             </ul>    
         </nav>
     </header>
@@ -33,12 +33,65 @@
             <div class="card-name">
                 <h1>Max Shevchenko</h1>
                 <hr size="3px" color="black">
-                <h2>Beginner Frontend Developer</h2>        
+                <h3>Beginner Frontend Developer</h3>        
             </div>
         </div>
 
-        <div class="cards-info">
-
+        <div class="section-info">
+            <div class="section-item" id="about">
+                <h2>About me</h2>
+                <p>A simple guy from a town in southern Russia. <br>
+                    I came to study at Rolling scopes because I want to become a FE developer. <br>
+                    I struggled with a lot of programming languages <br>
+                    but I decided that frontend is closer to me<br>
+                    I hope I will be able to finish this course and move on, all I need <br>
+                    is patience and a little discipline, and it will work out for sure. <br>
+                </p>
+            </div>
+            <div class="section-item" id="contact">
+                <h2 class="card-title">
+                    Contact
+                </h2>
+                <ul class="card-list">
+                    <li class="card-list-item">
+                        Rostov, Russia
+                    </li>
+                    <li class="card-list-item">
+                        Email: maxshev12@gmail.com
+                    </li>
+                    <li class="card-list-item">
+                        GitHub: @moonshy-max
+                    </li>
+                    <li class="card-list-item">
+                        Telegram: @msh5
+                    </li>
+                    <li class="card-list-item">
+                        Discord: moonshy#6101
+                    </li>
+                </ul>
+            </div>
+            <div class="section-item" id="skills">
+                <h2>Skills</h2>
+                <ul class="card-list">
+                    <li class="card-list-item">HTML5, CSS3</li>
+                    <li class="card-list-item">JavaScript Basics</li>
+                    <li class="card-list-item">Git, GitHub Basics</li>
+                    <li class="card-list-item">VS Code</li>
+                    <li class="card-list-item">Adobe Photoshop</li>
+                </ul>
+            </div>
+            <div class="section-item" id="code">
+                <h2>Code</h2>
+                <code>
+                    function isEmail() { <br>
+                    var str = document.getElementById("email").value; <br>
+                    var status = document.getElementById("status"); <br>
+                    var re = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i; <br>
+                    if (re.test(str)) status.innerHTML = "Адрес правильный"; <br>
+                    else status.innerHTML = "Адрес неверный"; <br>
+                    if(isEmpty(str)) status.innerHTML = "Поле пустое";} <br>
+                </code>
+            </div>
         </div>
     </main>
 
