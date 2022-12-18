@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Cross Check</title>
 </head>
 
 <body>
@@ -34,7 +34,7 @@
             </div>
             <div class="card-name">
                 <h1>Max Shevchenko</h1>
-                <hr size="3px" color="black">
+                <hr>
                 <h3>Beginner Frontend Developer</h3>        
             </div>
         </div>
@@ -54,13 +54,13 @@
                         Rostov, Russia
                     </li>
                     <li class="card-list-item">
-                        Email: maxshev12@gmail.com
+                        Email: <a href="http://maxshev12@gmail.com">maxshev12@gmail.com</a>
                     </li>
                     <li class="card-list-item">
-                        GitHub: @moonshy-max
+                        GitHub: <a href="http://github.com/moonshy-max">@moonshy-max</a> 
                     </li>
                     <li class="card-list-item">
-                        Telegram: @msh5
+                        Telegram: <a href="https://t.me/msh233">@msh5</a>
                     </li>
                     <li class="card-list-item">
                         Discord: moonshy#6101
@@ -83,7 +83,7 @@
                     function isEmail() { <br>
                     var str = document.getElementById("email").value; <br>
                     var status = document.getElementById("status"); <br>
-                    var re = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i; <br>
+                    var re = /^[^\s()>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i; <br>
                     if (re.test(str)) status.innerHTML = "Адрес правильный"; <br>
                     else status.innerHTML = "Адрес неверный"; <br>
                     if(isEmpty(str)) status.innerHTML = "Поле пустое";} <br>
